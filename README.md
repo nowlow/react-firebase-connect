@@ -54,25 +54,25 @@ class App extends Component {
 **scopes**: string, see Github API documentation
 ### Themes
 default:  
-![default](.github/assets/github_default.png =250x)  
-black:  
-![black](.github/assets/github_black.png =250x)
+![default](.github/assets/github_default.png)  
+dark:  
+![dark](.github/assets/github_dark.png)
 
 ## FacebookLogin
 **scopes**: string, see Github API documentation
 
 ## Themes
 default:  
-![default](.github/assets/facebook_default.png =250x)  
+![default](.github/assets/facebook_default.png)  
 blue:  
-![blue](.github/assets/facebook_blue.png =250x)
+![blue](.github/assets/facebook_blue.png)
 
 ### Twitter
 ## Themes
 default:  
-![defalut](.github/assets/twitter_default.png =250x)  
+![default](.github/assets/twitter_default.png)  
 blue:  
-![blue](.github/assets/twitter_blue.png =250x)
+![blue](.github/assets/twitter_blue.png)
 
 ## License
 
