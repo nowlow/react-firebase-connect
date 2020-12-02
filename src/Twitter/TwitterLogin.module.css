@@ -1,0 +1,27 @@
+.TwitterLogin {
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.TwitterLogin.default {
+    border: 1px solid #1da1f3;
+    background-color: white;
+    color: #1da1f3;
+}
+
+.TwitterLogin.blue {
+    background-color: #1da1f3;
+    color: white;
+}
+
+.TwitterLoginIcon {
+    margin-right: 10px;
+    font-size: 20px
+}

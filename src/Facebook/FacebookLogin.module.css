@@ -1,0 +1,27 @@
+.FacebookLogin {
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.FacebookLogin.default {
+    background-color: white;
+    border: 1px solid #1877f2;
+    color: #1877f2;
+}
+
+.FacebookLogin.blue {
+    background-color: #1877f2;
+    color: white;
+}
+
+.FacebookLoginIcon {
+    margin-right: 10px;
+    font-size: 20px;
+}

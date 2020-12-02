@@ -1,0 +1,27 @@
+.GithubLogin {
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.GithubLogin.default {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.GithubLogin.dark {
+    background-color: black;
+    color: white;
+}
+
+.GithubLoginIcon {
+    margin-right: 10px;
+    font-size: 20px;
+}
