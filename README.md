@@ -23,8 +23,20 @@ yarn add react-firebase-connect
 ```jsx
 import React, { Component } from 'react'
 
-import { GithubLogin } from 'react-firebase-connect'
+import { GithubLogin, initializeApp } from 'react-firebase-connect'
 import 'react-firebase-connect/dist/index.css'
+
+// Your firebase tokens
+initializeApp({{
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
+}})
 
 class App extends Component {
   render() {
